@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "musicpackbuilder"
-version = "1.0.0"
+version = "2.0.0"
 description = "Create Minecraft music disc resource packs from audio files."
 authors = [{ name = "Lochana" }]
 readme = "README.md"
