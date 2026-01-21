@@ -137,14 +137,6 @@ def save_json_to_resource_pack(json_data: dict, resource_pack_path: Path):
         print(f"✓ Created {lang}.json in resource pack")
 
 
-def save_json_locally(json_data: dict, base_dir: Path):
-    """Write language JSONs to working directory."""
-    for lang, data in json_data.items():
-        file = base_dir / f"{lang}.json"
-        with file.open("w", encoding="utf-8") as fh:
-            json.dump(data, fh, ensure_ascii=False, indent=2)
-        print(f"✓ Saved local {file.name}")
-
 
 # ----- Main flow -----
 def main(args: argparse.Namespace):
@@ -228,7 +220,6 @@ def main(args: argparse.Namespace):
             shutil.copy(f, dest)
 
     save_json_to_resource_pack(json_data, resource_pack_path)
-    save_json_locally(json_data, cwd)
 
     zip_name = f"{resource_pack_path.name}.zip"
     if Path(zip_name).exists():
