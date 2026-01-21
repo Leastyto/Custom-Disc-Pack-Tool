@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: musicpackbuilder
+Version: 1.0.0
+Summary: Create Minecraft music disc resource packs from audio files.
+Author: Lochana
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: mutagen
+Requires-Dist: pydub
+
+# placeholder lawl
