@@ -25,7 +25,7 @@ No command‑line knowledge is required.
 If you prefer using the terminal, you can pass arguments to control how the tool behaves.
 
 ```
-musicpackbuilder.exe [OPTIONS]
+musicpackbuilder [OPTIONS]
 ```
 
 ---
@@ -37,7 +37,7 @@ Specifies the folder containing your source audio files.
 Example:
 
 ```
-musicpackbuilder.exe --audio-dir "My Songs"
+musicpackbuilder --audio-dir "My Songs"
 ```
 
 If not provided:
@@ -54,7 +54,7 @@ Specifies where the processed `.ogg` files should be saved.
 Example:
 
 ```
-musicpackbuilder.exe --export-dir "Converted"
+musicpackbuilder --export-dir "Converted"
 ```
 
 If not provided, the default is:
@@ -72,7 +72,7 @@ Automatically shortens songs that exceed Minecraft’s disc time limits.
 Example:
 
 ```
-musicpackbuilder.exe --auto-truncate
+musicpackbuilder --auto-truncate
 ```
 
 This option removes all prompts related to long songs.
@@ -86,7 +86,7 @@ Automatically skips songs that exceed the time limit instead of asking.
 Example:
 
 ```
-musicpackbuilder.exe --skip-long-songs
+musicpackbuilder --skip-long-songs
 ```
 
 ---
@@ -96,25 +96,25 @@ musicpackbuilder.exe --skip-long-songs
 ### Fully automatic run
 
 ```
-musicpackbuilder.exe --audio-dir "My Songs" --auto-truncate
+musicpackbuilder --audio-dir "My Songs" --auto-truncate
 ```
 
 ### Skip long songs instead of cutting them
 
 ```
-musicpackbuilder.exe --audio-dir "My Songs" --skip-long-songs
+musicpackbuilder --audio-dir "My Songs" --skip-long-songs
 ```
 
 ### Custom export folder
 
 ```
-musicpackbuilder.exe --audio-dir "My Songs" --export-dir "OGG Output"
+musicpackbuilder --audio-dir "My Songs" --export-dir "OGG Output"
 ```
 
 ### Interactive mode (no arguments)
 
 ```
-musicpackbuilder.exe
+musicpackbuilder
 ```
 
 ---
