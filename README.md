@@ -6,6 +6,8 @@ MusicPackBuilder converts your audio files into a Minecraft resource pack contai
 
 This guide explains all available arguments and how to use them.
 
+also download it using `pip install musicpackbuilder==2.0.0` 
+
 ---
 
 ## Basic Usage
