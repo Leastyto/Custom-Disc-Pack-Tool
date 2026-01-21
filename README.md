@@ -1,6 +1,4 @@
-Absolutely — here’s a clean, emoji‑free version of the README section focused on explaining your command‑line arguments clearly and professionally.
 
----
 
 # MusicPackBuilder — Command Line Usage Guide
 
@@ -130,6 +128,3 @@ After processing, the tool produces:
 
 The ZIP can be placed directly into your Minecraft `resourcepacks` folder.
 
----
-
-If you want, I can also prepare a full README for PyPI or GitHub, including installation instructions, examples, and troubleshooting.
